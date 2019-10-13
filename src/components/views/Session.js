@@ -25,14 +25,13 @@ export default class Session extends Component {
         this.eventSource.addEventListener("mouse-position-event", e =>
             this.updateMousePosition(JSON.parse(e.data))
         );
-
-        const height = document.getElementById('inner-page').offsetHeight;
-        const width = document.getElementById('inner-page').offsetWidth;
-        this.setState({height: height, width: width})
     }
 
     updateMousePosition(mousePosition) {
-        this.setState({page: mousePosition.page, x: mousePosition.x, y: mousePosition.y});
+        const height = document.getElementById('inner-page').offsetHeight;
+        const width = document.getElementById('inner-page').offsetWidth;
+
+        this.setState({page: mousePosition.page, x: mousePosition.x, y: mousePosition.y, height: height, width: width});
     }
 
     render() {
