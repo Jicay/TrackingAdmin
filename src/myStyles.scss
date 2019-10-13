@@ -1,0 +1,23 @@
+html, body, input, textarea, select, button {
+  border-color: #5a5956;
+  color: #f0ece2;
+}
+
+div.app {
+  background-color: #ffffff;
+  position: relative;
+  top: -44px;
+}
+
+#remote-page {
+  border: solid;
+  padding: 30px;
+}
+
+.mouse-indicator {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: red;
+  margin-top: -20px;
+}
