@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="mouse-indicator"
+  style={
+    Object {
+      "left": "87px",
+      "position": "relative",
+      "top": "10px",
+      "zIndex": 10,
+    }
+  }
+/>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col"
+  >
+    10
+  </div>
+  <div
+    className="col"
+  >
+    2019-10-03 12:35:45
+  </div>
+  <div
+    className="col"
+  >
+    <a
+      href="/sessions/10"
+      onClick={[Function]}
+    >
+      Voir l'état de la session
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="congrats container"
+>
+  <div>
+    Bravo pour avoir soumis !
+  </div>
+  <a
+    href="#"
+  >
+    Retour à l'accueil
+  </a>
+</div>
+`;

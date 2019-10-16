@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Session renders correctly when congrats 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <Link
+      replace={false}
+      to="/"
+    >
+      Retour à la liste des sessions
+    </Link>
+    <div>
+      Détail de la session 
+      10
+    </div>
+    <div
+      id="remote-page"
+    >
+      <MouseIndicator
+        left={365000}
+        top={153600}
+      />
+      <div
+        id="inner-page"
+      >
+        <Congrats />
+      </div>
+    </div>
+  </div>
+</Router>
+`;
+
+exports[`Session renders correctly when home 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <Link
+      replace={false}
+      to="/"
+    >
+      Retour à la liste des sessions
+    </Link>
+    <div>
+      Détail de la session 
+      10
+    </div>
+    <div
+      id="remote-page"
+    >
+      <MouseIndicator
+        left={365000}
+        top={153600}
+      />
+      <div
+        id="inner-page"
+      >
+        <Home />
+      </div>
+    </div>
+  </div>
+</Router>
+`;
+
+exports[`Session renders correctly when image 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <Link
+      replace={false}
+      to="/"
+    >
+      Retour à la liste des sessions
+    </Link>
+    <div>
+      Détail de la session 
+      10
+    </div>
+    <div
+      id="remote-page"
+    >
+      <MouseIndicator
+        left={365000}
+        top={153600}
+      />
+      <div
+        id="inner-page"
+      >
+        <ImageForm />
+      </div>
+    </div>
+  </div>
+</Router>
+`;

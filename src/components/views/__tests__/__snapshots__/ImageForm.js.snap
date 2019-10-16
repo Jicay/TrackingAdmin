@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="image container container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col align-content-center"
+    >
+      <img
+        className="img-fluid"
+        src="https://live.staticflickr.com/916/43406628822_cffd9b699e_b.jpg"
+      />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <form>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="inputMail"
+        >
+          Email :
+        </label>
+        <input
+          id="inputMail"
+          placeholder="Saisissez votre adresse e-mail"
+          type="email"
+        />
+      </div>
+      <button
+        className="btn btn-primary"
+        type="submit"
+      >
+        Envoyer
+      </button>
+    </form>
+  </div>
+</div>
+`;

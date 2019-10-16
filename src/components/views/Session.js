@@ -17,7 +17,9 @@ export default class Session extends Component {
         this.state = {
             page: 'home',
             x: 0,
-            y: 0
+            y: 0,
+            width: 100,
+            height: 100
         };
     }
 

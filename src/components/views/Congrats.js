@@ -13,7 +13,7 @@ export default class Congrats extends Component {
                 <div>
                     Bravo pour avoir soumis !
                 </div>
-                <Link to="/">Retour à l'accueil</Link>
+                <a href='#'>Retour à l'accueil</a>
             </Container>
         );
     }

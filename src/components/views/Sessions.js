@@ -4,7 +4,6 @@ import SessionInfo from "./SessionInfo";
 export default class Sessions extends Component {
     constructor(props) {
         super(props);
-
     }
 
     componentDidMount() {

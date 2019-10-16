@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when home 1`] = `
+<div
+  className="col align-content-center"
+>
+  <img
+    className="img-fluid"
+    src="https://live.staticflickr.com/skfjlsf/psdofispdofi.jpg"
+  />
+</div>
+`;
