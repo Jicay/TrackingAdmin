@@ -4,6 +4,7 @@ import ImageForm from "./ImageForm";
 import Home from "./Home";
 import Congrats from "./Congrats";
 import MouseIndicator from "./MouseIndicator";
+import {BACK_URL} from "../../config";
 
 export default class Session extends Component {
     constructor(props) {
@@ -12,7 +13,7 @@ export default class Session extends Component {
 
         const sessionId = match.params.sessionId;
 
-        this.eventSource = new EventSource("https://tracking-mouse-back.herokuapp.com/sessions/" + sessionId + "/mouse-positions/stream");
+        this.eventSource = new EventSource(BACK_URL + "/sessions/" + sessionId + "/mouse-positions/stream");
 
         this.state = {
             page: 'home',

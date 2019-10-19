@@ -1,3 +1,4 @@
+import {BACK_URL} from "../config";
 
 export const RECEIVE_SESSIONS = 'RECEIVE_SESSIONS';
 export const REQUEST_SESSIONS = 'REQUEST_SESSIONS';
@@ -28,7 +29,7 @@ export const fetchSessionsIfNeeded = () => (dispatch, getState) => {
 
 const fetchSessions = () => dispatch => {
     dispatch(requestLocation())
-    return fetch(`https://tracking-mouse-back.herokuapp.com/sessions`)
+    return fetch(BACK_URL + `/sessions`)
         .then(response => response.json())
         .then(json => {dispatch(receiveSessions(json))})
 }
