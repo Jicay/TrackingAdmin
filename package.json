@@ -25,7 +25,7 @@
     "enzyme-to-json": "^3.4.2",
     "es6-promise": "^4.2.5",
     "eventsourcemock": "^2.0.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fetch-mock": "^7.5.1",
     "file-loader": "^4.2.0",
     "isomorphic-fetch": "latest",
